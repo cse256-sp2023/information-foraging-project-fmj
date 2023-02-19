@@ -10,10 +10,16 @@ main li {
 }
 
 .classroom {
+    display: flex;
     margin-top: 6em;
     margin-bottom: 1em;
     clear: both;
     overflow: hidden;
+}
+.pdf {
+    width: 100%;
+    /* height: 100%; */
+    min-height:100vh;
 }
 
 .classroom img {
@@ -23,4 +29,55 @@ main li {
 
 .classroom p {
     font-size: 1.15em;
+}
+
+#column-view {
+    display: flex;
+}
+
+.column {
+    width: 50%;
+    padding: 16px;
+    font-size: 1em;
+}
+
+.column .inner-div {
+    padding: 1em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eee;
+    padding: 19px 24px;
+}
+
+.column-header {
+    background-color: #2b8282;
+    padding: 19px 24px;
+}
+
+.column h3 {
+    text-align: left;
+    color: white;
+    font-size: 1.25em;
+}
+
+.column a {
+    /* color: #a51417; */
+    color: white;
+
+    text-decoration: underline;
+    display: block;
+    padding-left: 24px;
+    /* margin-bottom: 1em; */
+    /* font-size: 1.25em; */
+}
+
+.column a.inline {
+    /* color: #a51417; */
+    color: white;
+
+    text-decoration: underline;
+    display: inline;
+    padding-left: 3px;
+    margin-bottom: 0em;
+    /* font-size: 1em; */
 }
