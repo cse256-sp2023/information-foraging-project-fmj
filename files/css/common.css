@@ -51,6 +51,18 @@ main h2 {
     margin-bottom: 24px;
 }
 
+.intro-text {
+    text-align: center;
+    padding-right:5%;
+    padding-left:5%;
+    padding-top:3%;
+    color: rgb(85, 85, 85);
+    font-size: 27.648px;
+    font-weight: 300;
+    line-height: 36.8548px;
+    margin-bottom: 24px;
+}
+
 main h3 {
     color: rgb(85, 85, 85);
     font-size: 27px;
