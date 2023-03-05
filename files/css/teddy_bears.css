@@ -2,6 +2,35 @@
 @import url("slideshow.css");
 @import url("side_menu.css");
 @import url("staff_entry.css");
+
+.btn-group button {
+    background-color: #a51417; /* Green background */
+    border: 1px solid black; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    width: 33.3%;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #a514168a;
+  }
+  
+
+
 .announcements h4 {
     margin-top: 1em;
     color: rgb(208, 28, 41);
