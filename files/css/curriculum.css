@@ -14,10 +14,13 @@
 .subject_title {
     font-size:xx-large;
     font-weight: bolder;
-    line-height:0;
+    line-height:1em;
     padding:5px;
     padding-left:0px;
     margin:0px;
+}
+h1{
+
 }
 
 .subject .subject_items li{
