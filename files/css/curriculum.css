@@ -1,0 +1,30 @@
+@import url("common.css");
+@import url("side_menu.css");
+
+.pdf_information {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    display:flex;
+}
+
+.subject {
+    padding:10px;
+}
+
+.subject_title {
+    font-size:xx-large;
+    font-weight: bolder;
+    line-height:0;
+    padding:5px;
+    padding-left:0px;
+    margin:0px;
+}
+
+.subject .subject_items li{
+    padding:0px;
+    margin-bottom: 1px;
+}
+
+.pdf_begin{
+    text-align: center;
+}

@@ -92,7 +92,7 @@
     margin-bottom: 20px;
 }
 .active {
-    background-color: #aaa;
+    background-color: rgb(0, 0, 0);
 }
 
 .slideshow-dot:hover {

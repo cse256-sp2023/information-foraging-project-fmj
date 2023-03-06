@@ -2,6 +2,31 @@
 @import url("slideshow.css");
 @import url("side_menu.css");
 @import url("staff_entry.css");
+
+.btn-group a {
+    background-color: #a51417; 
+    border: 1px solid black; 
+    color: white;
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+    width: 33.3%;
+  }
+  
+  
+  .btn-group a:not(:last-child) {
+    border-right: none;
+  }
+  
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group a:hover {
+    background-color: #a514168a;
+  }
 .announcements h4 {
     margin-top: 1em;
     color: rgb(208, 28, 41);
